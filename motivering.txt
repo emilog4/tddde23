@@ -1,0 +1,22 @@
+Test pixel constraints:
+    Test the function pixel_constraints with diffrent edgecases and other values.
+        - Checks the code with 255 as high and 0 as low values, values inannför intervallet
+        - Checks the code with 255 as high and 0 as low values. Values inannför intervallet.
+        - Checks the code with 255 as high and 255 as low values. Values utanför intervallet
+        - Checks the code with 0 as high and 0 as low values. Values utanför intervallet
+        - Checks the code with 200 as high and 100 as low values. Values utanför intervallet
+        - Checks the code with a string instead of a tuple.
+
+Test Generator From Image
+    Tests the function generator_from_image if its able to retrive
+    elements in a list from functionscalls.
+        -Checks the code with different data and indexes
+        -Checks the code with strings as indexes and empty funcioncalls.
+
+Test combines Images
+    Tests the function combine_images by checking if it catches an error
+    message if the lists that it uses are diffrent lenghts, and if it works
+    if it should work.
+
+        -The function gets the correct arguments. Same size list.
+        -The function gets the incorrect arguments. Diffrent size list.
